@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TheDatingApp</string>
+    <string name="send_notifications_button">Send Notification</string>
+    <string name="message_button">Message</string>
+    <string name="message_placeholder">Message..</string>
+    <string name="channel_name">dating-app</string>
+    <string name="channel_description">dating-app</string>
+    <string name="profile_name"><b>Wanda</b>, 25</string>
+</resources>
