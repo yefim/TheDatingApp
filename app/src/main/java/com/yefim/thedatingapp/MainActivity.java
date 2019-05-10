@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setSmallIcon(R.drawable.heart)
-                .setContentTitle("1 New Match")g
+                .setContentTitle("1 New Match")
                 // .setContentText("You have a new Match!")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 // Set the intent that will fire when the user taps the notification
