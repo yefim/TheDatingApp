@@ -124,6 +124,7 @@
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="24dp"
             android:background="#F44336"
+            android:onClick="sendMessage"
             android:text="@string/message_button"
             android:textColor="@android:color/primary_text_dark"
             app:layout_constraintBottom_toBottomOf="parent"
