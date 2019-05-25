@@ -107,5 +107,7 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         }
     }
 
-
+    int size() {
+        return this.mMessageList.size();
+    }
 }

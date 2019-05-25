@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+    public static final String EXTRA_MESSAGE = "EXTRA_MESSAGE";
     private String CHANNEL_ID = "dating-app";
 
     @Override
@@ -46,6 +47,24 @@ public class MainActivity extends AppCompatActivity {
 
     public void goToProfile(View view) {
         Intent intent = new Intent(this, DisplayProfileActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToProfile18Ft(View view) {
+        Intent intent = new Intent(this, DisplayProfileActivity.class);
+        intent.putExtra(EXTRA_MESSAGE, "18 feet away");
+        startActivity(intent);
+    }
+
+    public void goToProfile19Ft(View view) {
+        Intent intent = new Intent(this, DisplayProfileActivity.class);
+        intent.putExtra(EXTRA_MESSAGE, "19 feet away");
+        startActivity(intent);
+    }
+
+    public void goToProfile20Ft(View view) {
+        Intent intent = new Intent(this, DisplayProfileActivity.class);
+        intent.putExtra(EXTRA_MESSAGE, "20 feet away");
         startActivity(intent);
     }
 

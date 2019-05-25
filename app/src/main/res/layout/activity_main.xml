@@ -10,7 +10,7 @@
         android:id="@+id/sendNotificationButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:onClick="sendNotification"
         android:text="@string/send_notifications_button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
         android:id="@+id/goToProfileButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:onClick="goToProfile"
         android:text="Go To Profile Directly"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,5 +42,44 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/profile18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="goToProfile18Ft"
+        android:text="Go to profile (18 ft)"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goToProfileButton" />
+
+    <Button
+        android:id="@+id/profile19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="goToProfile19Ft"
+        android:text="Go to profile (19 ft)"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile18" />
+
+    <Button
+        android:id="@+id/profile20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="goToProfile20Ft"
+        android:text="Go to profile (20 ft)"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile19" />
 
 </android.support.constraint.ConstraintLayout>
